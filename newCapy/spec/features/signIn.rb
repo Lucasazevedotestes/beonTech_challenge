@@ -6,7 +6,7 @@ RSpec.describe 'SignIn', type: :feature do
   let(:signInPage) { SignInPage.new }
   
   it 'signin with success', :test1 do
-    email = 'daVinci20@healthie.com'
+    email = 'daVinci25@healthie.com'
     signInPage.navigateToSignInPage
     signInPage.signInAsProvider
     expect(page).to have_content 'Provider Sign Up'
